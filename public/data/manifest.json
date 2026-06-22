@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-22T12:01:17.300Z",
+  "latest": "snapshots/2026-06-22T12-01-17-300Z.json",
+  "count": 2,
+  "readingCount": 12,
+  "snapshots": [
+    {
+      "id": "2026-06-22T11-50-32-090Z",
+      "fetchedAt": "2026-06-22T11:50:32.090Z",
+      "sourceCount": 2,
+      "okCount": 2
+    },
+    {
+      "id": "2026-06-22T12-01-17-300Z",
+      "fetchedAt": "2026-06-22T12:01:17.300Z",
+      "sourceCount": 2,
+      "okCount": 2
+    }
+  ]
+}

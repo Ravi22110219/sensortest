@@ -1,0 +1,23 @@
+{
+  "intervalMinutes": 15,
+  "timeoutMs": 20000,
+  "maxSamples": 1000,
+  "maxReadings": 10000,
+  "outputDir": "public/data",
+  "apis": [
+    {
+      "id": "ritel",
+      "name": "Ritel",
+      "url": "http://121.242.232.165/live/ritel",
+      "enabled": true,
+      "headers": {}
+    },
+    {
+      "id": "witel",
+      "name": "Witel",
+      "url": "http://121.242.232.165/live/witel",
+      "enabled": true,
+      "headers": {}
+    }
+  ]
+}
