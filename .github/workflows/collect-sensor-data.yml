@@ -1,0 +1,48 @@
+name: Collect sensor data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-sensor-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest sensor data
+        run: npm run collect:once
+
+      - name: Verify build
+        run: npm run build
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/history.json public/data/readings.json public/data/manifest.json public/data/snapshots
+          if git diff --cached --quiet; then
+            echo "No sensor data changes to commit."
+          else
+            git commit -m "chore: update sensor data"
+            git push
+          fi

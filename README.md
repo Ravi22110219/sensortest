@@ -24,6 +24,14 @@ React dashboard with a local JSON collector. There is no backend server here: th
    npm run dev
    ```
 
+## Vercel Deployment
+
+Deploy the GitHub repository to Vercel as a Vite app. The static site reads JSON from `public/data`.
+
+Automatic historical updates are handled by `.github/workflows/collect-sensor-data.yml`. The workflow runs every 15 minutes, fetches Ritel/Witel data, commits updated JSON files, and pushes to `main`. If the Vercel project is connected to this GitHub repo, each workflow commit triggers a new deployment with the latest stored data.
+
+You can also run the workflow manually from the GitHub Actions tab.
+
 ## Data Files
 
 - `public/data/history.json` stores full timestamped API snapshots.
