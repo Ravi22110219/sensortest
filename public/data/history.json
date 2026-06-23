@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T16:14:25.456Z",
+  "updatedAt": "2026-06-23T18:16:27.077Z",
   "intervalMinutes": 15,
   "samples": [
     {
@@ -861,6 +861,78 @@
               "id": "WITEL0003",
               "timestamp": "2026-06-23 21:43:50",
               "water_level": 21
+            }
+          ],
+          "error": null
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2026-06-23T18-16-27-077Z",
+      "fetchedAt": "2026-06-23T18:16:27.077Z",
+      "label": "6/23/2026, 6:16:27 PM",
+      "sources": [
+        {
+          "id": "ritel",
+          "name": "Ritel",
+          "url": "http://121.242.232.165/live/ritel",
+          "ok": true,
+          "status": 200,
+          "durationMs": 739,
+          "fetchedAt": "2026-06-23T18:16:27.818Z",
+          "numeric": {
+            "RITEL0001.rainfall_intensity": 0,
+            "RITEL0002.rainfall_intensity": 0,
+            "RITEL0003.rainfall_intensity": 0
+          },
+          "data": [
+            {
+              "id": "RITEL0001",
+              "timestamp": "2026-06-23 23:45:52",
+              "rainfall_intensity": 0
+            },
+            {
+              "id": "RITEL0002",
+              "timestamp": "2026-06-23 23:45:53",
+              "rainfall_intensity": 0
+            },
+            {
+              "id": "RITEL0003",
+              "timestamp": "2026-06-23 23:46:07",
+              "rainfall_intensity": 0
+            }
+          ],
+          "error": null
+        },
+        {
+          "id": "witel",
+          "name": "Witel",
+          "url": "http://121.242.232.165/live/witel",
+          "ok": true,
+          "status": 200,
+          "durationMs": 740,
+          "fetchedAt": "2026-06-23T18:16:27.837Z",
+          "numeric": {
+            "WITEL0001.water_level": 0,
+            "WITEL0002.water_level": 0,
+            "WITEL0003.water_level": 25
+          },
+          "data": [
+            {
+              "id": "WITEL0001",
+              "timestamp": "2026-06-23 23:46:15",
+              "water_level": 0
+            },
+            {
+              "id": "WITEL0002",
+              "timestamp": "2026-06-23 23:45:53",
+              "water_level": 0
+            },
+            {
+              "id": "WITEL0003",
+              "timestamp": "2026-06-23 23:46:01",
+              "water_level": 25
             }
           ],
           "error": null
