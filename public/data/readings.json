@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T13:31:35.982Z",
-  "count": 66,
+  "updatedAt": "2026-06-23T16:14:25.456Z",
+  "count": 72,
   "readings": [
     {
       "id": "2026-06-22T11-50-32-090Z:ritel:RITEL0001:rainfall_intensity",
@@ -794,6 +794,78 @@
       "metric": "water_level",
       "metricKey": "WITEL0003.water_level",
       "value": 3
+    },
+    {
+      "id": "2026-06-23T16-14-25-456Z:ritel:RITEL0001:rainfall_intensity",
+      "snapshotId": "2026-06-23T16-14-25-456Z",
+      "fetchedAt": "2026-06-23T16:14:25.456Z",
+      "readingTime": "2026-06-23 21:43:50",
+      "sourceId": "ritel",
+      "sourceName": "Ritel",
+      "stationId": "RITEL0001",
+      "metric": "rainfall_intensity",
+      "metricKey": "RITEL0001.rainfall_intensity",
+      "value": 0
+    },
+    {
+      "id": "2026-06-23T16-14-25-456Z:ritel:RITEL0002:rainfall_intensity",
+      "snapshotId": "2026-06-23T16-14-25-456Z",
+      "fetchedAt": "2026-06-23T16:14:25.456Z",
+      "readingTime": "2026-06-23 21:37:25",
+      "sourceId": "ritel",
+      "sourceName": "Ritel",
+      "stationId": "RITEL0002",
+      "metric": "rainfall_intensity",
+      "metricKey": "RITEL0002.rainfall_intensity",
+      "value": 0
+    },
+    {
+      "id": "2026-06-23T16-14-25-456Z:ritel:RITEL0003:rainfall_intensity",
+      "snapshotId": "2026-06-23T16-14-25-456Z",
+      "fetchedAt": "2026-06-23T16:14:25.456Z",
+      "readingTime": "2026-06-23 21:43:51",
+      "sourceId": "ritel",
+      "sourceName": "Ritel",
+      "stationId": "RITEL0003",
+      "metric": "rainfall_intensity",
+      "metricKey": "RITEL0003.rainfall_intensity",
+      "value": 0
+    },
+    {
+      "id": "2026-06-23T16-14-25-456Z:witel:WITEL0001:water_level",
+      "snapshotId": "2026-06-23T16-14-25-456Z",
+      "fetchedAt": "2026-06-23T16:14:25.456Z",
+      "readingTime": "2026-06-23 21:43:55",
+      "sourceId": "witel",
+      "sourceName": "Witel",
+      "stationId": "WITEL0001",
+      "metric": "water_level",
+      "metricKey": "WITEL0001.water_level",
+      "value": 0
+    },
+    {
+      "id": "2026-06-23T16-14-25-456Z:witel:WITEL0002:water_level",
+      "snapshotId": "2026-06-23T16-14-25-456Z",
+      "fetchedAt": "2026-06-23T16:14:25.456Z",
+      "readingTime": "2026-06-23 21:43:41",
+      "sourceId": "witel",
+      "sourceName": "Witel",
+      "stationId": "WITEL0002",
+      "metric": "water_level",
+      "metricKey": "WITEL0002.water_level",
+      "value": 0
+    },
+    {
+      "id": "2026-06-23T16-14-25-456Z:witel:WITEL0003:water_level",
+      "snapshotId": "2026-06-23T16-14-25-456Z",
+      "fetchedAt": "2026-06-23T16:14:25.456Z",
+      "readingTime": "2026-06-23 21:43:50",
+      "sourceId": "witel",
+      "sourceName": "Witel",
+      "stationId": "WITEL0003",
+      "metric": "water_level",
+      "metricKey": "WITEL0003.water_level",
+      "value": 21
     }
   ]
 }
