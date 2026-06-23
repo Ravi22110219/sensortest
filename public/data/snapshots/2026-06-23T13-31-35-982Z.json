@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-06-23T13-31-35-982Z",
+  "fetchedAt": "2026-06-23T13:31:35.982Z",
+  "label": "6/23/2026, 1:31:35 PM",
+  "sources": [
+    {
+      "id": "ritel",
+      "name": "Ritel",
+      "url": "http://121.242.232.165/live/ritel",
+      "ok": true,
+      "status": 200,
+      "durationMs": 670,
+      "fetchedAt": "2026-06-23T13:31:36.653Z",
+      "numeric": {
+        "RITEL0001.rainfall_intensity": 0,
+        "RITEL0002.rainfall_intensity": 0,
+        "RITEL0003.rainfall_intensity": 0
+      },
+      "data": [
+        {
+          "id": "RITEL0001",
+          "timestamp": "2026-06-23 19:00:46",
+          "rainfall_intensity": 0
+        },
+        {
+          "id": "RITEL0002",
+          "timestamp": "2026-06-23 19:00:45",
+          "rainfall_intensity": 0
+        },
+        {
+          "id": "RITEL0003",
+          "timestamp": "2026-06-23 19:00:45",
+          "rainfall_intensity": 0
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "witel",
+      "name": "Witel",
+      "url": "http://121.242.232.165/live/witel",
+      "ok": true,
+      "status": 200,
+      "durationMs": 633,
+      "fetchedAt": "2026-06-23T13:31:36.652Z",
+      "numeric": {
+        "WITEL0001.water_level": 0,
+        "WITEL0002.water_level": 0,
+        "WITEL0003.water_level": 3
+      },
+      "data": [
+        {
+          "id": "WITEL0001",
+          "timestamp": "2026-06-23 19:01:07",
+          "water_level": 0
+        },
+        {
+          "id": "WITEL0002",
+          "timestamp": "2026-06-23 19:01:13",
+          "water_level": 0
+        },
+        {
+          "id": "WITEL0003",
+          "timestamp": "2026-06-23 19:01:15",
+          "water_level": 3
+        }
+      ],
+      "error": null
+    }
+  ]
+}
