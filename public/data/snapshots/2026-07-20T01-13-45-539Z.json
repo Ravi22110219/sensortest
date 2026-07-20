@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-20T01-13-45-539Z",
+  "fetchedAt": "2026-07-20T01:13:45.539Z",
+  "label": "7/20/2026, 1:13:45 AM",
+  "sources": [
+    {
+      "id": "ritel",
+      "name": "Ritel",
+      "url": "http://121.242.232.165/live/ritel",
+      "ok": false,
+      "status": null,
+      "durationMs": 10528,
+      "fetchedAt": "2026-07-20T01:13:56.068Z",
+      "numeric": {},
+      "data": null,
+      "error": "fetch failed"
+    },
+    {
+      "id": "witel",
+      "name": "Witel",
+      "url": "http://121.242.232.165/live/witel",
+      "ok": false,
+      "status": null,
+      "durationMs": 10496,
+      "fetchedAt": "2026-07-20T01:13:56.068Z",
+      "numeric": {},
+      "data": null,
+      "error": "fetch failed"
+    }
+  ]
+}
