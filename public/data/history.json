@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T02:33:53.075Z",
+  "updatedAt": "2026-08-12T04:27:08.872Z",
   "intervalMinutes": 15,
   "samples": [
     {
@@ -110234,6 +110234,42 @@
           "status": 200,
           "durationMs": 470,
           "fetchedAt": "2026-08-12T02:33:53.574Z",
+          "numeric": {},
+          "data": {
+            "error": "2003 (HY000): Can't connect to MySQL server on '10.9.22.155:3306' (111)"
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2026-08-12T04-27-08-872Z",
+      "fetchedAt": "2026-08-12T04:27:08.872Z",
+      "label": "8/12/2026, 4:27:08 AM",
+      "sources": [
+        {
+          "id": "ritel",
+          "name": "Ritel",
+          "url": "http://121.242.232.165/live/ritel",
+          "ok": true,
+          "status": 200,
+          "durationMs": 475,
+          "fetchedAt": "2026-08-12T04:27:09.348Z",
+          "numeric": {},
+          "data": {
+            "error": "2003 (HY000): Can't connect to MySQL server on '10.9.22.155:3306' (111)"
+          },
+          "error": null
+        },
+        {
+          "id": "witel",
+          "name": "Witel",
+          "url": "http://121.242.232.165/live/witel",
+          "ok": true,
+          "status": 200,
+          "durationMs": 428,
+          "fetchedAt": "2026-08-12T04:27:09.335Z",
           "numeric": {},
           "data": {
             "error": "2003 (HY000): Can't connect to MySQL server on '10.9.22.155:3306' (111)"
