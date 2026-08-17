@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T05:07:56.670Z",
+  "updatedAt": "2026-08-17T05:49:44.398Z",
   "intervalMinutes": 15,
   "samples": [
     {
@@ -124410,6 +124410,38 @@
           "numeric": {},
           "data": null,
           "error": "Timed out after 20000ms"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2026-08-17T05-49-44-398Z",
+      "fetchedAt": "2026-08-17T05:49:44.398Z",
+      "label": "8/17/2026, 5:49:44 AM",
+      "sources": [
+        {
+          "id": "ritel",
+          "name": "Ritel",
+          "url": "http://121.242.232.165/live/ritel",
+          "ok": false,
+          "status": null,
+          "durationMs": 256,
+          "fetchedAt": "2026-08-17T05:49:44.655Z",
+          "numeric": {},
+          "data": null,
+          "error": "fetch failed"
+        },
+        {
+          "id": "witel",
+          "name": "Witel",
+          "url": "http://121.242.232.165/live/witel",
+          "ok": false,
+          "status": null,
+          "durationMs": 238,
+          "fetchedAt": "2026-08-17T05:49:44.654Z",
+          "numeric": {},
+          "data": null,
+          "error": "fetch failed"
         }
       ]
     }
