@@ -1,16 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T14:57:22.720Z",
-  "latest": "snapshots/2026-09-11T14-57-22-720Z.json",
+  "updatedAt": "2026-09-11T18:16:29.857Z",
+  "latest": "snapshots/2026-09-11T18-16-29-857Z.json",
   "count": 1000,
   "readingCount": 10000,
   "snapshots": [
-    {
-      "id": "2026-07-17T14-02-15-922Z",
-      "fetchedAt": "2026-07-17T14:02:15.922Z",
-      "sourceCount": 2,
-      "okCount": 2
-    },
     {
       "id": "2026-07-17T15-39-07-718Z",
       "fetchedAt": "2026-07-17T15:39:07.718Z",
@@ -6002,6 +5996,12 @@
     {
       "id": "2026-09-11T14-57-22-720Z",
       "fetchedAt": "2026-09-11T14:57:22.720Z",
+      "sourceCount": 2,
+      "okCount": 2
+    },
+    {
+      "id": "2026-09-11T18-16-29-857Z",
+      "fetchedAt": "2026-09-11T18:16:29.857Z",
       "sourceCount": 2,
       "okCount": 2
     }
