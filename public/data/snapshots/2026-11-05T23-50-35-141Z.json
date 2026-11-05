@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-05T23-50-35-141Z",
+  "fetchedAt": "2026-11-05T23:50:35.141Z",
+  "label": "11/5/2026, 11:50:35 PM",
+  "sources": [
+    {
+      "id": "ritel",
+      "name": "Ritel",
+      "url": "http://121.242.232.165/live/ritel",
+      "ok": false,
+      "status": 503,
+      "durationMs": 486,
+      "fetchedAt": "2026-11-05T23:50:35.629Z",
+      "numeric": {},
+      "data": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>503 Service Unavailable</title>\n</head><body>\n<h1>Service Unavailable</h1>\n<p>The server is temporarily unable to service your\nrequest due to maintenance downtime or capacity\nproblems. Please try again later.</p>\n<hr>\n<address>Apache/2.4.52 (Ubuntu) Server at 121.242.232.165 Port 80</address>\n</body></html>\n",
+      "error": "HTTP 503"
+    },
+    {
+      "id": "witel",
+      "name": "Witel",
+      "url": "http://121.242.232.165/live/witel",
+      "ok": false,
+      "status": 503,
+      "durationMs": 465,
+      "fetchedAt": "2026-11-05T23:50:35.630Z",
+      "numeric": {},
+      "data": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>503 Service Unavailable</title>\n</head><body>\n<h1>Service Unavailable</h1>\n<p>The server is temporarily unable to service your\nrequest due to maintenance downtime or capacity\nproblems. Please try again later.</p>\n<hr>\n<address>Apache/2.4.52 (Ubuntu) Server at 121.242.232.165 Port 80</address>\n</body></html>\n",
+      "error": "HTTP 503"
+    }
+  ]
+}
