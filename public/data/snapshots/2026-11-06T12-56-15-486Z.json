@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-06T12-56-15-486Z",
+  "fetchedAt": "2026-11-06T12:56:15.486Z",
+  "label": "11/6/2026, 12:56:15 PM",
+  "sources": [
+    {
+      "id": "ritel",
+      "name": "Ritel",
+      "url": "http://121.242.232.165/live/ritel",
+      "ok": true,
+      "status": 200,
+      "durationMs": 486,
+      "fetchedAt": "2026-11-06T12:56:15.974Z",
+      "numeric": {},
+      "data": {
+        "error": "2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)"
+      },
+      "error": null
+    },
+    {
+      "id": "witel",
+      "name": "Witel",
+      "url": "http://121.242.232.165/live/witel",
+      "ok": true,
+      "status": 200,
+      "durationMs": 463,
+      "fetchedAt": "2026-11-06T12:56:15.976Z",
+      "numeric": {},
+      "data": {
+        "error": "2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)"
+      },
+      "error": null
+    }
+  ]
+}
